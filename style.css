@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    
+    margin: 0;
+    padding: 0;
+    
+    background: #333;
+}
+
+.pop{
+    width: 50%;
+    height: 200px;
+    
+    position: relative;
+    left: 25%;
+    top: 20%;
+    
+    background: #f0e3d2;
+    
+    text-align: center;
+    
+    animation: anime 0.5s forwards;
+}
+
+.close{
+    border-radius: 50%;
+    border: none;
+    
+    width: 30px;
+    height: 30px;
+    
+    margin: 2% 90% 0 0;
+}
+
+.enter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 35px;
+}
+
+input{
+    padding: 0;
+    margin: 0;
+    
+    border: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+input, .go{
+    height: 35px;
+}
+
+.go{
+    background: #333;
+    color: aliceblue;
+    
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+@keyframes anime{
+    0%{
+        transform: translateY(0px);
+        opacity: 0;
+    }
+    70%{
+        transform: translateY(200px);
+        opacity: 0.4;
+    }
+    100%{
+        transform: translateY(150px);
+        opacity: 1;
+    }
+}
+
+
+
+
+
+
+
+
